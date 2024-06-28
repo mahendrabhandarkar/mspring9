@@ -12,3 +12,5 @@ Blue - Green --- Same environment create and align it with PROD<br />
 Canary --- <br />
 
 Staging Cluster :--- StandBy Environment like UAT, QA<br />
+MinGit-2.45.2-32-bit.zip -- Git
+node-v20.15.0-win-x64.zip
