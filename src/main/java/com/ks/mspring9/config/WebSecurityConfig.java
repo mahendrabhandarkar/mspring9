@@ -60,8 +60,7 @@ public class WebSecurityConfig {
         http
                 .csrf().disable()
                 .authorizeRequests()
-                .requestMatchers("/login", "/register", "/css/**", "/js/**", "/images/**", "/webjars/**", "/favicon" +
-                        ".ico").permitAll()
+                .requestMatchers("/login", "/register", "/css/**", "/js/**", "/images/**", "/webjars/**", "/favicon.ico", "/h2/**", "/dt").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
@@ -79,6 +78,6 @@ public class WebSecurityConfig {
     @Bean
     public WebSecurityCustomizer webSecurityCustomizer() {
         return (web) -> web.ignoring().requestMatchers("/static/**", "/favicon.ico", "/assets/**", "/css/**", "/img" +
-                "/**", "/js**", "/admin/**", "/webjars/**", "/templates/**");
+                "/**", "/js**", "/admin/**", "/webjars/**", "/templates/**", "/h2/**", "/dt");
     }
 }

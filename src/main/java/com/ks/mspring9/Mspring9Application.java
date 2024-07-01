@@ -15,4 +15,8 @@ public class Mspring9Application {
 	public String indexPage(Model model) {
 		return "index";
 	}
+	@GetMapping("/dt")
+	public String designTestPage(Model model) {
+		return "my/designtest";
+	}
 }

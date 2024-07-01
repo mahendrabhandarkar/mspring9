@@ -25,7 +25,7 @@ public class RbacAccessUser implements Serializable {
     private Integer userId;
     @Column
     private boolean status;
-    @Column
-    private Set<RbacAccessRole> roles = new HashSet<>();
+//    @Column
+//    private Set<RbacAccessRole> roles = new HashSet<>();
 
 }
