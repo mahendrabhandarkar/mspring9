@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<div class="row">
+<div th:fragment="textFieldAlphaNumeric" id="textFieldAlphaNumeric(id, name, label, value, widthPixels, readonly, alt, errorVal)">
+<div class="container">
+    <label th:for="${#strings.toLowerCase(id)}">
+        <span th:text="${label}">Field</span>
+    </label>
+</div>
+    <div>
+        <input type="text" th:id="${#strings.toLowerCase(id)}" th:name="${#strings.toLowerCase(name)}"
+               th:value="${value}" th:size="${widthPixels}" th:readonly="${readonly}" th:alt="${alt}" th:errorclass="error" />
+        <ul>
+            <li th:each="err : ${#fields.errors(name)}" class="error" />
+        </ul>
+    </div>
+</div>
+</div>
+<th:block>
+
+</th:block>
+</html>
