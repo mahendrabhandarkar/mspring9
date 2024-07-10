@@ -18,3 +18,4 @@ https://github.com/pmoustopoulos/department-api/tree/master - Nice tutorial with
 AG Grid / JQuery Builder <br />
 https://github.com/nitrite/nitrite-java - NoSQL embedded document store for Java <br />
 mock migration, internal parallel run -- daily sync up, sanity testing <br />
+Daffodil Replicator, https://www.rubyrep.org/ <br />
