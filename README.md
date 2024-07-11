@@ -17,6 +17,6 @@ node-v20.15.0-win-x64.zip <br />
 https://github.com/pmoustopoulos/department-api/tree/master - Nice tutorial with docker and spring boot <br />
 AG Grid / JQuery Builder <br />
 https://github.com/nitrite/nitrite-java - NoSQL embedded document store for Java <br />
-mock migration, internal parallel run -- daily sync up, sanity testing <br />
+mock code and db migration, Database Mirroring, internal parallel run (code and db) -- daily sync up using postgresql settings, sanity testing, Git option to prevent overwrite, <br />
 Daffodil Replicator, https://www.rubyrep.org/ <br />
 https://boxicons.com/ -- Free High Quality Icons <br />
