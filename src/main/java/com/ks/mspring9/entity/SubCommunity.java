@@ -7,9 +7,8 @@ import java.io.Serializable;
 
 @Data
 @Entity
-@Table(name = "sub_community")
+@Table(schema = "public", name = "sub_community", indexes = {@Index(columnList = "sub_community_name")}) // For Sorting based on name
 public class SubCommunity implements Serializable {
-
     private static final long serialVersionUID = 1L;
 
     @Id
@@ -25,6 +24,7 @@ public class SubCommunity implements Serializable {
 
     @ManyToOne
     @JoinColumn(name="community_id", referencedColumnName = "id", insertable = false, updatable = false, nullable = true)
+    @OrderBy("DESC")
     private Community community;
 
 }
