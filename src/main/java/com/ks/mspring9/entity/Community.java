@@ -8,7 +8,7 @@ import java.util.Set;
 
 @Data
 @Entity
-@Table(name = "community")
+@Table(schema = "public", name = "community", indexes = {@Index(columnList = "community_name")})
 public class Community implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -26,6 +26,7 @@ public class Community implements Serializable {
 /*
     // mapped with property name in entity of sub-community
     @OneToMany(mappedBy = "communityId")
+    @OrderBy("DESC")
     private Set<SubCommunity> subCommunities;
  */
 }
