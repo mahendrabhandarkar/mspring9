@@ -31,6 +31,12 @@ import jakarta.persistence.criteria.Root;
 
 @Controller
 public class WebPageController {
+
+    @Autowired
+    EntityManager em;
+    
+    public static final Logger logger = LoggerFactory.getLogger(WebPageController.class);
+
     @GetMapping("/")
     public String index() {
         return "dashboard";
