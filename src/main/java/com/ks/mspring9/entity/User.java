@@ -26,7 +26,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Table(name = "t_user")
-public class User {
+public class User extends BaseEntityAudit{
     @Id
     @GeneratedValue
     private Long id;

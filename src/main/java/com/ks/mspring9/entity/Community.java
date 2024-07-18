@@ -8,7 +8,8 @@ import java.util.Set;
 
 @Data
 @Entity
-@Table(schema = "public", name = "community", indexes = {@Index(columnList = "community_name")})
+//@Table(schema = "public", name = "community", indexes = {@Index(columnList = "community_name")})
+@Table(name = "community", indexes = {@Index(columnList = "community_name")})
 public class Community implements Serializable {
 
     private static final long serialVersionUID = 1L;

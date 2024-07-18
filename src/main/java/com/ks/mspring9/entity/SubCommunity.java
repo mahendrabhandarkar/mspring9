@@ -7,7 +7,8 @@ import java.io.Serializable;
 
 @Data
 @Entity
-@Table(schema = "public", name = "sub_community", indexes = {@Index(columnList = "sub_community_name")}) // For Sorting based on name
+//@Table(schema = "public", name = "sub_community", indexes = {@Index(columnList = "sub_community_name")}) // For Sorting based on name
+@Table(name = "sub_community", indexes = {@Index(columnList = "sub_community_name")})
 public class SubCommunity implements Serializable {
     private static final long serialVersionUID = 1L;
 

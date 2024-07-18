@@ -102,6 +102,12 @@
 			<artifactId>mockito-core</artifactId>
 			<version>5.3.1</version>
 		</dependency>
+		<!-- ZeroMQ Messaging Queue -->
+		<dependency>
+			<groupId>org.zeromq</groupId>
+			<artifactId>jeromq</artifactId>
+			<version>0.6.0</version>
+		</dependency>
 		<!-- XML Read and Write Library -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
