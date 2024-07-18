@@ -20,3 +20,4 @@ https://github.com/nitrite/nitrite-java - NoSQL embedded document store for Java
 mock code and db migration, Database Mirroring, internal parallel run (code and db) -- daily sync up using postgresql settings, sanity testing, Git option to prevent overwrite, <br />
 Daffodil Replicator, https://www.rubyrep.org/ <br />
 https://boxicons.com/ -- Free High Quality Icons <br />
+https://libretranslate.com/ ---- search english to hindi translate content <br />
