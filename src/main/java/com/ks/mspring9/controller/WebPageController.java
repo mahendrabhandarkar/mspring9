@@ -29,6 +29,10 @@ import jakarta.persistence.criteria.ParameterExpression;
 import jakarta.persistence.criteria.Predicate;
 import jakarta.persistence.criteria.Root;
 
+import org.springframework.statemachine.StateMachine;
+import com.ks.mspring9.statemachine.Events;
+import com.ks.mspring9.statemachine.States;
+
 @Controller
 public class WebPageController {
 
@@ -44,6 +48,10 @@ public class WebPageController {
 
     @GetMapping("/login")
     public String login() {
+        System.out.println("----------- State Change Start --------");
+        stateMachine.sendEvent(Events.E1);
+        stateMachine.sendEvent(Events.E2);
+        System.out.println("----------- State Change End --------");
         return "login";
     }
 
