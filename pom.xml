@@ -163,6 +163,19 @@
 			<artifactId>openpdf</artifactId>
 			<version>1.3.30</version>
 		</dependency>
+		<!-- jacoco - Static Code Coverage Report -->
+		<dependency>
+			<groupId>org.jacoco</groupId>
+			<artifactId>jacoco-maven-plugin</artifactId>
+			<version>0.8.12</version>
+		</dependency>
+		<!-- Embedded MongoDB - For In-Memory MongoDB -->
+		<dependency>
+			<groupId>de.flapdoodle.embed</groupId>
+			<artifactId>de.flapdoodle.embed.mongo</artifactId>
+			<version>4.16.0</version>
+    		<scope>test</scope>
+		</dependency>
 		<!-- Bootstrap Library Access -->
 		<dependency>
 			<groupId>org.webjars</groupId>
