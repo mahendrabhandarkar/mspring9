@@ -26,4 +26,6 @@ https://libretranslate.com/ ---- search english to hindi translate content <br /
 | Photopea|	Online Photo Editor | https://www.photopea.com/	|
 | DALL·E 3 | Idea into image | |
 | Microsoft Designer | | https://designer.microsoft.com/ |
-
+| ouath2 | |Login to google console and create key for oauth2 integration for login using gmail|
+|TailWindCSS | |https://flowbite.com/ for ready made code in tailwindcss|
+|jest | |react unit testing|
