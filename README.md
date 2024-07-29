@@ -21,6 +21,7 @@ mock code and db migration, Database Mirroring, internal parallel run (code and 
 Daffodil Replicator, https://www.rubyrep.org/ <br />
 https://boxicons.com/ -- Free High Quality Icons <br />
 https://libretranslate.com/ ---- search english to hindi translate content <br />
+Bastion server/ jump server / Proxy Server -- <br />
 | Term / Tools | Used For Free | Layman description | 
 | :---: | :---: | :---: | 
 | Photopea|	Online Photo Editor | https://www.photopea.com/	|
