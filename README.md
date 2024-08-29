@@ -12,6 +12,7 @@ Blue - Green --- Same environment create and align it with PROD<br />
 Canary --- <br />
 
 Staging Cluster :--- StandBy Environment like UAT, QA<br />
+Solarwinds Solar-Putty bundle all -- For Connecting other VM Machines<br />
 Revo Uninstaller 2 User's Guide --- <br />
 MinGit-2.45.2-32-bit.zip -- Git <br />
 node-v20.15.0-win-x64.zip <br />
